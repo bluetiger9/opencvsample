@@ -1,7 +1,7 @@
 #include <jni.h>
 #include <string>
 #include <opencv2/core.hpp>
-#include <cv.hpp>
+#include <opencv/cv.hpp>
 
 extern "C"
 {

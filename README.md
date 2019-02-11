@@ -9,7 +9,7 @@ Main adjustment was in the sample.cpp file I had to change "Java_com_theta360_op
 
 ## Additional Notes from theta360.guide community
 
-Tested with OpenCV 4.0.1
+Tested with OpenCV 3.4.5
 
 You need OpenCV in addition to this repo.
 

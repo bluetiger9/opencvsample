@@ -100,6 +100,10 @@
         "source": "/home/craig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d617451428dba3465b1491daa058ec66/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/craig/Development/ricoh/plugin/opencvsample/app/build/intermediates/res/merged/debug/drawable_sculpture.png.flat",
+        "source": "/home/craig/Development/ricoh/plugin/opencvsample/app/src/main/res/drawable/sculpture.png"
+    },
+    {
         "merged": "/home/craig/Development/ricoh/plugin/opencvsample/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/home/craig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d617451428dba3465b1491daa058ec66/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -298,6 +302,10 @@
     {
         "merged": "/home/craig/Development/ricoh/plugin/opencvsample/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "/home/craig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d617451428dba3465b1491daa058ec66/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/craig/Development/ricoh/plugin/opencvsample/app/build/intermediates/res/merged/debug/drawable_park.png.flat",
+        "source": "/home/craig/Development/ricoh/plugin/opencvsample/app/src/main/res/drawable/park.png"
     },
     {
         "merged": "/home/craig/Development/ricoh/plugin/opencvsample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -1122,6 +1130,10 @@
     {
         "merged": "/home/craig/Development/ricoh/plugin/opencvsample/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/home/craig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d617451428dba3465b1491daa058ec66/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/craig/Development/ricoh/plugin/opencvsample/app/build/intermediates/res/merged/debug/drawable_museum.jpg.flat",
+        "source": "/home/craig/Development/ricoh/plugin/opencvsample/app/src/main/res/drawable/museum.jpg"
     },
     {
         "merged": "/home/craig/Development/ricoh/plugin/opencvsample/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",

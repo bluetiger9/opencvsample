@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         mTextView.setText("OpenCV version: " + version());
 
         // load the picture from the drawable resource
-        Bitmap img = BitmapFactory.decodeResource(getResources(), R.drawable.lena);
+        Bitmap img = BitmapFactory.decodeResource(getResources(), R.drawable.park);
 
         // get the byte array from the Bitmap instance
         ByteBuffer byteBuffer = ByteBuffer.allocate(img.getByteCount());
