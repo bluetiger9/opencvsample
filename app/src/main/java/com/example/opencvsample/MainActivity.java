@@ -18,7 +18,10 @@ import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity {
+import com.theta360.pluginlibrary.activity.PluginActivity;
+
+
+public class MainActivity extends PluginActivity {
 
     // load native library
     static {

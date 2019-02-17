@@ -1,4 +1,4 @@
-#Sat Feb 16 13:45:21 PST 2019
+#Sun Feb 17 13:50:56 PST 2019
 base.0=/home/craig/Development/ricoh/plugin/opencvsample/app/build/intermediates/transforms/dexMerger/debug/4
 path.0=classes.dex
 renamed.0=classes.dex

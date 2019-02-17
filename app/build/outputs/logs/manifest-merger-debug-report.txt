@@ -4,8 +4,8 @@ ADDED from /home/craig/Development/ricoh/plugin/opencvsample/app/src/main/Androi
 INJECTED from /home/craig/Development/ricoh/plugin/opencvsample/app/src/main/AndroidManifest.xml:2:1-25:12
 INJECTED from /home/craig/Development/ricoh/plugin/opencvsample/app/src/main/AndroidManifest.xml:2:1-25:12
 INJECTED from /home/craig/Development/ricoh/plugin/opencvsample/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [:pluginlibrary] /home/craig/Development/ricoh/plugin/opencvsample/pluginlibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d617451428dba3465b1491daa058ec66/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/craig/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d8ba48eb2948f57317d7cc8dd2e2dd0e/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/107be349a8383c852b0c31fa31114b57/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/9501f6670ab1c963cb504d3e83591332/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b543a2c56e5cea53922952e9f38a3ab1/AndroidManifest.xml:17:1-22:12
@@ -20,13 +20,14 @@ MERGED from [com.android.support:customview:28.0.0] /home/craig/.gradle/caches/t
 MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/b2ef68262a341cd19ead4b6abaf4f11b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/757aafe09f818c308068b428767e9164/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/00966bdb48cbea12be770a9514dc599f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/craig/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d8ba48eb2948f57317d7cc8dd2e2dd0e/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7ee78498e3e8e6bfb7d2394ea6d99190/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ea95aeaaa97ef5fab3dc67414cc66643/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/db3f58709aeb3772e361dddceaeedc66/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c12822aa36f9c6340ec0f47bed90ddb5/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/eb117e82f661119876d3b152f386ecf1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/7e4cba9618ca092642914400456491af/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/eebdaa0d9c11644bc1db76dcaa275be3/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c12822aa36f9c6340ec0f47bed90ddb5/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bf6e426116ab86eca9c8ae62c9556775/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/c675a7fa1dc7fde9a4e749a09bdd0533/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e391dd9d00b241e5861379b3a39c68f1/AndroidManifest.xml:17:1-22:12
@@ -58,10 +59,12 @@ ADDED from /home/craig/Development/ricoh/plugin/opencvsample/app/src/main/Androi
 		ADDED from /home/craig/Development/ricoh/plugin/opencvsample/app/src/main/AndroidManifest.xml:6:22-78
 application
 ADDED from /home/craig/Development/ricoh/plugin/opencvsample/app/src/main/AndroidManifest.xml:9:5-23:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/craig/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d8ba48eb2948f57317d7cc8dd2e2dd0e/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/craig/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d8ba48eb2948f57317d7cc8dd2e2dd0e/AndroidManifest.xml:9:5-20
+MERGED from [:pluginlibrary] /home/craig/Development/ricoh/plugin/opencvsample/pluginlibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:pluginlibrary] /home/craig/Development/ricoh/plugin/opencvsample/pluginlibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
 MERGED from [com.android.support:support-compat:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/00966bdb48cbea12be770a9514dc599f/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/00966bdb48cbea12be770a9514dc599f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/craig/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d8ba48eb2948f57317d7cc8dd2e2dd0e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/craig/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d8ba48eb2948f57317d7cc8dd2e2dd0e/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7ee78498e3e8e6bfb7d2394ea6d99190/AndroidManifest.xml:22:5-23:19
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7ee78498e3e8e6bfb7d2394ea6d99190/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
@@ -96,10 +99,10 @@ uses-sdk
 INJECTED from /home/craig/Development/ricoh/plugin/opencvsample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/craig/Development/ricoh/plugin/opencvsample/app/src/main/AndroidManifest.xml
 INJECTED from /home/craig/Development/ricoh/plugin/opencvsample/app/src/main/AndroidManifest.xml
+MERGED from [:pluginlibrary] /home/craig/Development/ricoh/plugin/opencvsample/pluginlibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:pluginlibrary] /home/craig/Development/ricoh/plugin/opencvsample/pluginlibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d617451428dba3465b1491daa058ec66/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d617451428dba3465b1491daa058ec66/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/craig/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d8ba48eb2948f57317d7cc8dd2e2dd0e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/craig/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d8ba48eb2948f57317d7cc8dd2e2dd0e/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:support-fragment:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/107be349a8383c852b0c31fa31114b57/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/107be349a8383c852b0c31fa31114b57/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/9501f6670ab1c963cb504d3e83591332/AndroidManifest.xml:20:5-44
@@ -128,20 +131,22 @@ MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/craig/.gradle
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/757aafe09f818c308068b428767e9164/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/00966bdb48cbea12be770a9514dc599f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/00966bdb48cbea12be770a9514dc599f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/craig/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d8ba48eb2948f57317d7cc8dd2e2dd0e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/craig/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d8ba48eb2948f57317d7cc8dd2e2dd0e/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7ee78498e3e8e6bfb7d2394ea6d99190/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7ee78498e3e8e6bfb7d2394ea6d99190/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ea95aeaaa97ef5fab3dc67414cc66643/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ea95aeaaa97ef5fab3dc67414cc66643/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/db3f58709aeb3772e361dddceaeedc66/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/db3f58709aeb3772e361dddceaeedc66/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c12822aa36f9c6340ec0f47bed90ddb5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c12822aa36f9c6340ec0f47bed90ddb5/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/eb117e82f661119876d3b152f386ecf1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/eb117e82f661119876d3b152f386ecf1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/7e4cba9618ca092642914400456491af/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/7e4cba9618ca092642914400456491af/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:print:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/eebdaa0d9c11644bc1db76dcaa275be3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:print:28.0.0] /home/craig/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/eebdaa0d9c11644bc1db76dcaa275be3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c12822aa36f9c6340ec0f47bed90ddb5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c12822aa36f9c6340ec0f47bed90ddb5/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bf6e426116ab86eca9c8ae62c9556775/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bf6e426116ab86eca9c8ae62c9556775/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/craig/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/c675a7fa1dc7fde9a4e749a09bdd0533/AndroidManifest.xml:20:5-44
