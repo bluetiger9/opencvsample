@@ -5,10 +5,14 @@ import android.graphics.BitmapFactory;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
@@ -47,10 +51,14 @@ public class MainActivity extends AppCompatActivity {
 
         ByteBuffer byteBufferTheta = ByteBuffer.allocate(imgTheta.getByteCount());
         imgTheta.copyPixelsToBuffer(byteBufferTheta);
+
+        // OpenCV
         byte[] dstTheta = rgba2bgra(imgTheta.getWidth(), imgTheta.getHeight(), byteBufferTheta.array());
 
         Bitmap bmpTheta = Bitmap.createBitmap(imgTheta.getWidth(), imgTheta.getHeight(), Bitmap.Config.ARGB_8888);
         bmpTheta.copyPixelsFromBuffer(ByteBuffer.wrap(dstTheta));
+
+
 
         // ******  end load image from THETA
 
@@ -68,8 +76,24 @@ public class MainActivity extends AppCompatActivity {
         Bitmap bmp = Bitmap.createBitmap(img.getWidth(), img.getHeight(), Bitmap.Config.ARGB_8888);
         bmp.copyPixelsFromBuffer(ByteBuffer.wrap(dst));
         mImageView = (ImageView) findViewById(R.id.imageView);
-//        mImageView.setImageBitmap(bmp);
         mImageView.setImageBitmap(bmpTheta);
+
+
+        // Output
+        File photo = new File(Environment.getExternalStorageDirectory() + "/DCIM/" + "CV0010275.JPG");
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+        bmpTheta.compress(Bitmap.CompressFormat.JPEG, 50, byteArrayOutputStream);
+
+        try {
+            FileOutputStream fos = new FileOutputStream(photo.getPath());
+            fos.write(byteArrayOutputStream.toByteArray());
+            fos.flush();
+            fos.close();
+
+        }
+        catch (java.io.IOException e) {
+            Log.e("OPENCV", "export file problem", e);
+        }
     }
 
     // native functions
