@@ -33,13 +33,42 @@ extern "C"
 
         // Convert arrangement to cv::Mat
         cv::Mat m_src(h, w, CV_8UC4, (u_char *) p_src);
-        cv::Mat m_dst(h, w, CV_8UC4);
+        //cv::Mat m_dst(h, w, CV_8UC4);
+        cv::Mat m_dst(h, w, CV_8UC1);
 
         // OpenCV process
-        cv::cvtColor(m_src, m_dst, CV_RGBA2BGRA);
+        GaussianBlur(m_src, m_src, cv::Size(3,3), 0, 0, cv::BORDER_DEFAULT);
+
+        //cv::cvtColor(m_src, m_dst, CV_RGBA2BGRA);
+        cv::cvtColor(m_src, m_dst, CV_RGBA2GRAY);
+
+        int scale = 1;
+        int delta = 0;
+        int ddepth = CV_16S;
+
+        // Generate grad_x and grad_y
+        cv::Mat grad_x, grad_y, grad, grad_color;
+        cv::Mat abs_grad_x, abs_grad_y;
+
+        /// Gradient X
+        //Scharr( src_gray, grad_x, ddepth, 1, 0, scale, delta, BORDER_DEFAULT );
+        Sobel( m_dst, grad_x, ddepth, 1, 0, 3, scale, delta, cv::BORDER_DEFAULT );
+        convertScaleAbs( grad_x, abs_grad_x );
+
+        /// Gradient Y
+        //Scharr( src_gray, grad_y, ddepth, 0, 1, scale, delta, BORDER_DEFAULT );
+        Sobel( m_dst, grad_y, ddepth, 0, 1, 3, scale, delta, cv::BORDER_DEFAULT );
+        convertScaleAbs( grad_y, abs_grad_y );
+
+        /// Total Gradient (approximate)
+        addWeighted( abs_grad_x, 0.5, abs_grad_y, 0.5, 0, grad );
+
+        // Grad to Color
+        cv::cvtColor(grad, grad_color, CV_GRAY2RGBA);
 
         // Pick out arrangement from cv::Mat
-        u_char *p_dst = m_dst.data;
+        //u_char *p_dst = m_dst.data;
+        u_char *p_dst = grad_color.data;
 
         // Assign element for return value use
         jbyteArray dst = env->NewByteArray(w * h * 4);
