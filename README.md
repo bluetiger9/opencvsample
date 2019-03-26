@@ -1,3 +1,11 @@
+# Screenshots
+
+## RGBA to BGRA
+![RGBA to BGRA](https://raw.githubusercontent.com/bluetiger9/tensorflow-theta/master/rgba2bgra.png)
+
+## Sobel filter
+![Sobel filter](https://raw.githubusercontent.com/bluetiger9/tensorflow-theta/master/sobel.png)
+
 # opencvsample
 Originally posted byt roohii_3.
 Modified by https://github.com/iamagod (kasper on theta360.guide)
